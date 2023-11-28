@@ -29,7 +29,8 @@ val validateResult =
 </br>
 빈 문자열이 있는지 또는 이메일이 정규식(@, . 포함)에 맞게 작성되었는지, 비밀번호가 6글자 이상인지에 대해 검사를 실시합니다. 검사에 실패하는 경우 False와 실패 메시지를 반환하고, 반대로 성공하는 경우  True와 성공 메시지를 반환합니다.
 
-**Fail**
+<span style="color:red">Fail</span>
+
 ```kotlin
 // 빈 문자열이 있는 경우
 {
@@ -50,7 +51,8 @@ val validateResult =
 }
 ```
 
-**Success**
+<span style="color:blue">Success</span>
+
 ```kotlin
 {
     "result": true,
